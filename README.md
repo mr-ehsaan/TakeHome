@@ -24,7 +24,9 @@ please use PHP 8.1.10 version.
 
 5. php artisan db:seed
 
-6. !Now run the local backend server with following commands:
+6. php artisan passport:install
+
+7. !Now run the local backend server with following commands:
    php artisan serve
 
 I have added the .env file in the project, so don't need to worry about it.
