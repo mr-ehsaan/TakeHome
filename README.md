@@ -14,8 +14,17 @@ please use PHP 8.1.10 version.
 
 ## instruxtion to run this project.
 
-1. composer install.
-2. php artisan migrate.
-3. php artisan serve
+1. Create database named as "takeHome" in phpmyadmin
+
+2. Go to Laravel project terminal and run following commands
+
+3. composer install
+
+4. php artisan migrate
+
+5. php artisan db:seed
+
+6. !Now run the local backend server with following commands:
+   php artisan serve
 
 I have added the .env file in the project, so don't need to worry about it.
